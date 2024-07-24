@@ -43,7 +43,7 @@ def load_data(file, sheet_name):
     return df
 
 # Interfaz de usuario en Streamlit
-st.title("FLUJO DE RECURSOS CANALIZADOS A LAS AFORES")
+st.title("FLUJO DE RETIROS DE LAS CUENTAS INDIVIDUALES EN LAS AFORES")
 
 # Sección de ayuda en la barra lateral
 st.sidebar.title("Ayuda")
