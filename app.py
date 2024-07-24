@@ -48,7 +48,7 @@ st.title("FLUJO DE RETIROS DE LAS CUENTAS INDIVIDUALES EN LAS AFORES")
 # Sección de ayuda en la barra lateral
 st.sidebar.title("Ayuda")
 st.sidebar.write("""
-Esta aplicación te permite explorar y visualizar los datos de flujo de recursos canalizados a las AFOREs. A continuación, se detallan los pasos para utilizarla:
+Esta aplicación te permite explorar y visualizar los datos de flujo de retiros de las Cuentas Individuales en las AFOREs. A continuación, se detallan los pasos para utilizarla:
 
 1. **Selecciona una hoja**: Utiliza el menú desplegable para seleccionar la hoja del archivo Excel que deseas visualizar.
 2. **Visualiza los datos**: Los datos de la hoja seleccionada se mostrarán en una tabla.
