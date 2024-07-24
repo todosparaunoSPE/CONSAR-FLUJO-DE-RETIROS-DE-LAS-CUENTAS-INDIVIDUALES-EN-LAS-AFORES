@@ -59,8 +59,8 @@ Si tienes algún problema, asegúrate de que el archivo 'flujo_retiro_cuentas.xl
 """)
 
 # Pie de página en la barra lateral
-st.sidebar.write("© 2024 Todos los derechos reservados")
-st.sidebar.write("© 2024 jahoperi")
+#st.sidebar.write("© 2024 Todos los derechos reservados")
+#st.sidebar.write("© 2024 jahoperi")
 
 # Mostrar el DataFrame de las hojas y sus descripciones
 st.write("Hojas disponibles y sus descripciones:")
@@ -122,3 +122,8 @@ try:
             st.plotly_chart(fig)
 except FileNotFoundError:
     st.error("El archivo 'flujo_retiro_cuentas.xlsx' no se encontró. Por favor, asegúrate de que el archivo esté en el directorio correcto.")
+
+# Pie de página en la barra lateral
+st.sidebar.write("© 2024 Todos los derechos reservados")
+st.sidebar.write("© 2024 Creado por: Javier Horacio Pérez Ricárdez")
+st.sidebar.write("PensionISSSTE: Analista UEAP B")
